@@ -5,6 +5,8 @@ Sets up modern UI elements and configurations
 
 import frappe
 from frappe import _
+from ui_ux_upgrade.upgrade_checker.doctype_setup import create_upgrade_check_doctype
+from ui_ux_upgrade.suggestions.doctype_setup import create_ui_suggestions_doctype
 
 def after_install():
     """Setup modern UI elements after installation"""
@@ -14,6 +16,12 @@ def after_install():
     
     # Create Theme Manager
     create_theme_manager()
+    
+    # Create Upgrade Check doctype
+    create_upgrade_check_doctype()
+    
+    # Create UI Suggestions doctype
+    create_ui_suggestions_doctype()
     
     # Create Modern Dashboard
     create_modern_dashboard()
