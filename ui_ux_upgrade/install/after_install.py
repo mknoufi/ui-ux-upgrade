@@ -107,7 +107,11 @@ def create_modern_dashboard():
             "name": "modern-dashboard",
             "title": "Modern Dashboard",
             "module": "UI/UX Upgrade",
-            "template": "modern-dashboard.html"
+            "page_name": "modern-dashboard",
+            "content": """<div class="modern-dashboard">
+                <h1>Modern Dashboard</h1>
+                <p>Enhanced dashboard with modern UI/UX improvements.</p>
+            </div>"""
         })
         modern_dashboard.insert()
 
@@ -145,12 +149,18 @@ def create_custom_pages():
         {
             "name": "modern-login",
             "title": "Modern Login",
-            "template": "modern-login.html"
+            "content": """<div class="modern-login-page">
+                <h1>Modern Login</h1>
+                <p>Enhanced login experience with modern UI design.</p>
+            </div>"""
         },
         {
             "name": "modern-setup",
             "title": "Modern Setup",
-            "template": "modern-setup.html"
+            "content": """<div class="modern-setup-page">
+                <h1>Modern Setup</h1>
+                <p>Enhanced setup wizard with modern UI design.</p>
+            </div>"""
         }
     ]
     
@@ -161,6 +171,7 @@ def create_custom_pages():
                 "name": page["name"],
                 "title": page["title"],
                 "module": "UI/UX Upgrade",
-                "template": page["template"]
+                "page_name": page["name"],
+                "content": page["content"]
             })
             page_doc.insert()

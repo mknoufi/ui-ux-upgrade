@@ -1,0 +1,190 @@
+// Modern UI/UX Upgrade SCSS - Website Theme
+// Enhanced styling for ERPNext website themes
+
+// Variables
+$primary-color: #2563eb;
+$primary-dark: #1e40af;
+$primary-light: #dbeafe;
+$secondary-color: #64748b;
+$accent-color: #f59e0b;
+
+// Typography
+$font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-size-base: 1rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.25rem;
+
+// Spacing
+$spacing-4: 1rem;
+$spacing-6: 1.5rem;
+$spacing-8: 2rem;
+
+// Border Radius
+$radius-md: 0.375rem;
+$radius-lg: 0.5rem;
+
+// Shadows
+$shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+$shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+$shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+
+// Modern Website Styles
+.website-container {
+    font-family: $font-family;
+}
+
+.modern-hero {
+    background: linear-gradient(135deg, $primary-color 0%, $primary-dark 100%);
+    color: white;
+    padding: $spacing-8 0;
+    border-radius: $radius-lg;
+    margin-bottom: $spacing-6;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: $spacing-4;
+    }
+
+    p {
+        font-size: $font-size-lg;
+        opacity: 0.9;
+    }
+}
+
+.modern-card {
+    background: white;
+    border-radius: $radius-lg;
+    box-shadow: $shadow-md;
+    padding: $spacing-6;
+    margin-bottom: $spacing-4;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: $shadow-lg;
+    }
+
+    .card-title {
+        font-size: $font-size-xl;
+        font-weight: 600;
+        color: $primary-dark;
+        margin-bottom: $spacing-4;
+    }
+
+    .card-text {
+        color: $secondary-color;
+        line-height: 1.6;
+    }
+}
+
+.modern-btn {
+    background: $primary-color;
+    color: white;
+    border: none;
+    border-radius: $radius-md;
+    padding: 0.75rem 1.5rem;
+    font-size: $font-size-base;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover {
+        background: $primary-dark;
+        transform: translateY(-1px);
+        box-shadow: $shadow-md;
+        color: white;
+        text-decoration: none;
+    }
+
+    &.btn-secondary {
+        background: $secondary-color;
+        
+        &:hover {
+            background: darken($secondary-color, 10%);
+        }
+    }
+
+    &.btn-accent {
+        background: $accent-color;
+        
+        &:hover {
+            background: darken($accent-color, 10%);
+        }
+    }
+}
+
+.modern-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: $spacing-6;
+    margin: $spacing-6 0;
+}
+
+.modern-feature {
+    text-align: center;
+    padding: $spacing-6;
+
+    .feature-icon {
+        width: 60px;
+        height: 60px;
+        background: $primary-light;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto $spacing-4;
+        color: $primary-color;
+        font-size: 1.5rem;
+    }
+
+    .feature-title {
+        font-size: $font-size-lg;
+        font-weight: 600;
+        margin-bottom: $spacing-2;
+        color: $primary-dark;
+    }
+
+    .feature-description {
+        color: $secondary-color;
+        line-height: 1.6;
+    }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+    .modern-hero {
+        padding: $spacing-6 0;
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+
+    .modern-card {
+        padding: $spacing-4;
+    }
+
+    .modern-grid {
+        grid-template-columns: 1fr;
+        gap: $spacing-4;
+    }
+}
+
+// Dark Mode Support
+@media (prefers-color-scheme: dark) {
+    .modern-card {
+        background: #1e293b;
+        color: #f1f5f9;
+
+        .card-title {
+            color: #dbeafe;
+        }
+
+        .card-text {
+            color: #cbd5e1;
+        }
+    }
+}

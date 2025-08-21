@@ -23,7 +23,7 @@ This guide will help you install the UI/UX Upgrade app on your Frappe Cloud ERPN
 #### Step 2: Install via Git Repository
 1. **Add Git Repository**:
    ```
-   Repository URL: https://github.com/emart-systems/ui-ux-upgrade.git
+   Repository URL: https://github.com/mknoufi/ui-ux-upgrade.git
    Branch: main
    ```
 
@@ -57,7 +57,7 @@ This guide will help you install the UI/UX Upgrade app on your Frappe Cloud ERPN
 cd apps
 
 # Clone the repository
-git clone https://github.com/emart-systems/ui-ux-upgrade.git
+git clone https://github.com/mknoufi/ui-ux-upgrade.git
 
 # Install the app
 bench --site your-site-name install-app ui_ux_upgrade
@@ -286,4 +286,4 @@ bench restart
 
 **Made with ❤️ by E-Mart Systems**
 
-For more information, visit: https://github.com/emart-systems/ui-ux-upgrade
+For more information, visit: https://github.com/mknoufi/ui-ux-upgrade

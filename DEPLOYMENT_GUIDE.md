@@ -300,4 +300,4 @@ This app is licensed under the MIT License. See LICENSE file for details.
 
 **Made with ❤️ by E-Mart Systems**
 
-For more information, visit: https://github.com/emart-systems/ui-ux-upgrade
+For more information, visit: https://github.com/mknoufi/ui-ux-upgrade

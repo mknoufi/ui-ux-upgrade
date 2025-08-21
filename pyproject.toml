@@ -41,10 +41,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/emart-systems/ui-ux-upgrade"
+Homepage = "https://github.com/mknoufi/ui-ux-upgrade"
 Documentation = "https://ui-ux-upgrade.readthedocs.io"
-Repository = "https://github.com/emart-systems/ui-ux-upgrade.git"
-"Bug Tracker" = "https://github.com/emart-systems/ui-ux-upgrade/issues"
+Repository = "https://github.com/mknoufi/ui-ux-upgrade.git"
+"Bug Tracker" = "https://github.com/mknoufi/ui-ux-upgrade/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]

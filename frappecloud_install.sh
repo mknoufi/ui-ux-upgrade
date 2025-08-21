@@ -32,7 +32,7 @@ print_error() {
 # Configuration
 APP_NAME="ui_ux_upgrade"
 VERSION="1.0.0"
-GIT_REPO="https://github.com/emart-systems/ui-ux-upgrade.git"
+GIT_REPO="https://github.com/mknoufi/ui-ux-upgrade.git"
 
 # Check if we're in a Frappe Cloud environment
 check_frappecloud_environment() {
