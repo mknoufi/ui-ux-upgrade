@@ -1,0 +1,16 @@
+c9158361f06e746277af3b58e67181b8  ./hooks.py
+8e8771ab8894c34103339d33a90d40bb  ./install/__init__.py
+d44b4cd2cfd894383f556098d35a1cb4  ./install/after_install.py
+008b9d50eef1b290a454366710e724a0  ./LICENSE
+5a96b31000db19141504d57a8e701264  ./config/__init__.py
+190a8ddaf3f0c0f18d6eca9725141b5a  ./config/desktop.py
+179ca9981a1170374a39cd91b96d7dc1  ./install.sh
+d0159bea721556edd8afaa148d5b66e2  ./pyproject.toml
+c5b6ee4ca6631009d438f44b3cce2e33  ./CHECKSUMS.md5
+6afb74c109255b00c16e688e312ceb90  ./__init__.py
+fff26f6b568743824fddc056af1a0823  ./INSTALL.md
+b5cd123c04c39fbb78da7b36281d9405  ./README.md
+4352ed85fd4212c2c89ff00672129d1f  ./public/css/modern-ui.css
+11c0264c4ba9eedd8f84f6e9793679e3  ./public/js/modern-ui.js
+2f15762dd83565ced07239b0022dc103  ./VERSION
+1f51543f613f67ba5201dd0b19c25773  ./modules.txt
