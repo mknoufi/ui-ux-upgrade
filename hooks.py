@@ -91,7 +91,8 @@ doc_events = {
 
 scheduler_events = {
     "daily": [
-        "ui_ux_upgrade.tasks.daily_cleanup"
+        "ui_ux_upgrade.tasks.daily_cleanup",
+        "ui_ux_upgrade.upgrade_checker.upgrade_checker.schedule_upgrade_check"
     ],
     "weekly": [
         "ui_ux_upgrade.tasks.weekly_optimization"

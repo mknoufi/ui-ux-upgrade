@@ -40,5 +40,23 @@ def get_data():
             "label": _("Theme Manager"),
             "name": "Theme Manager",
             "description": _("Manage custom themes and styles")
+        },
+        {
+            "module_name": "Upgrade Check",
+            "color": "red",
+            "icon": "octicon octicon-cloud-download",
+            "type": "doctype",
+            "label": _("Upgrade Check"),
+            "name": "Upgrade Check",
+            "description": _("Check for app updates and upgrades")
+        },
+        {
+            "module_name": "UI Suggestions",
+            "color": "yellow",
+            "icon": "octicon octicon-light-bulb",
+            "type": "doctype",
+            "label": _("UI Suggestions"),
+            "name": "UI Suggestions",
+            "description": _("Get UI/UX improvement suggestions")
         }
     ]
