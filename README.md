@@ -43,7 +43,7 @@ A comprehensive UI/UX enhancement package for ERPNext that provides modern desig
 1. **Clone the App**
    ```bash
    cd apps
-   git clone <repository-url> ui_ux_upgrade
+   git clone https://github.com/mknoufi/ui-ux-upgrade.git
    ```
 
 2. **Install the App**
